@@ -5,19 +5,24 @@ YARA's significance in cybersecurity lies in its ability to help security profes
 
 This repository aims to teach you the YARA syntax and best practices. It contains a series of folders, each containing YARA rules and examples to help you understand how to write effective rules and why they are written that way.
 
-Start with the "starting_point" folder, which contains a basic YARA file with all the essential syntax and best practices. Everything is commented and explained, making it easy for beginners to follow along.
+Start with the "starting_point" folder, which contains a basic YARA file with all the essential syntax and best practices. Everything is commented on and explained, making it easy for beginners to follow along.
 
 As you progress through the folders, you'll encounter more complex rules and examples, allowing you to experiment and learn how to apply YARA in real-world scenarios.
 
 By the end of this repository, you'll have a solid understanding of YARA and its applications in cybersecurity. You'll be able to write your own rules, analyze malware samples, and contribute to the broader security community.
 
 ## How to navigate the repository
-Start with the starting point folder. It contains a yara file with all the basic syntax and best practices.
-Everythine is commented and explained.
+Start with the starting point folder. It contains a YARA file with all the basic syntax and best practices.
+Everything is commented on and explained.
 
-Then you can experiment with folders that contain some yara rules to match against malware samples and try to figure out how it works and why it was written that way.
+Then you can experiment with folders that contain some YARA rules to match against malware samples and try to figure out how it works and why it was written that way.
 
-## Resources to learn yara
+## Content from easiest to hardest
+| Name | Description |
+| --- | --- |
+| [starting_point](https://github.com/mohabgabber/yet-another-cheat-sheet/tree/main/starting_point) | Learn basic YARA syntax and best practices. every rule is accompanied by comments explaining the syntax |
+
+## Resources to learn YARA
 - [YARA documentation](https://yara.readthedocs.io/en/latest/)
 - [John Hammond's Classify malware with yara - Video](https://www.youtube.com/watch?v=fu71CljrxsU)
 - [YARA Rules Guide - Article](https://www.varonis.com/blog/yara-rules)
