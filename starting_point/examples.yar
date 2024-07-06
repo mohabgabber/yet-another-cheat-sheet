@@ -46,7 +46,7 @@ rule REGULAR_EXPRESSION_EXAMPLE_RULE {
 }
 
 /*
-*Running regular expressions is resource intensive, try to minimize its usage if possible, or use regular expression but with some static by bytes
+*Running regular expressions is resource intensive, try to minimize its usage if possible, or use regular expression but with some static bytes
 */
 
 rule HEXADECIMAL_EXAMPLE_RULE {
