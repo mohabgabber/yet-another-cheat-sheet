@@ -16,3 +16,4 @@ rule HEXADECIMAL_EXAMPLE_RULE {
 /*
 *Use hexadecimal in your rules if you have data in the file that can't be represented as ascii or wide.
 */
+//* you can learn more about hexadecimals in yara from this link: https://yara.readthedocs.io/en/latest/writingrules.html#hexadecimal-strings
