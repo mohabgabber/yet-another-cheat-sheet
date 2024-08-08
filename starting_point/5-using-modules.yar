@@ -7,8 +7,8 @@ rule PE_MODULES_EXAMPLE_RULE {
         description = "Teaches how to use modules in YARA"
         Sha256 = "HASHGOESHERE"
     condition:
-        pe.is_pe() // To use the module pe, we have to first import it, at the top of the file. then we can access its functionalities.
-        // pe.is_pe() checks if a file is a pe file or not. if so the rule will match successfully.
+        pe.is_pe // To use the module pe, we have to first import it, at the top of the file. then we can access its functionalities.
+        // pe.is_pe checks if a file is a pe file or not. if so the rule will match successfully.
 }
 
 rule ELF_MODULES_EXAMPLE_RULE {
